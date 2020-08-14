@@ -13,6 +13,6 @@ function throwDog(){
 function walkHomeDog(){
   console.log("Walk home with Byron the poodle");
 }
-function wakeDog(){
-  console.log("Wake Byron the poodle");
+function unleashDog(){
+  console.log("Unleash Byron the poodle");
 }
