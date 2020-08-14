@@ -29,10 +29,10 @@ console.log(throwFrisbee);
 console.log(walkHome);
 console.log(unleashDog);
 
-let routine = [walkDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
+
  
 function exerciseDog(dogName, dogBreed){
- 
+ let routine = [walkDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
   for(let i=0; i<routine.length; i++){
     routine[i](dogName, dogBreed);
   
