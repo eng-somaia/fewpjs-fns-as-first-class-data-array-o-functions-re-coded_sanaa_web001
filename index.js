@@ -6,11 +6,11 @@ function leashDog(){
   let b = console.log(`Leash ${dogName} the ${dogBreed}`);
   return b;
 }
-function walkDog(){
+function walkToPark(){
   let c = console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
   return c;
 }
-function throwDog(){
+function throwFrisbee(){
   let d = console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   return d;
 }
