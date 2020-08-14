@@ -23,6 +23,12 @@ function unleashDog(dogName, dogBreed){
   return f;
 }
 console.log(wakeDog);
+console.log(leashDog);
+console.log(walkToPark);
+console.log(throwFrisbee);
+console.log(walkHome);
+console.log(unleashDog);
+
 let routine = [walkDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
  
 function exerciseDog(dogName, dogBreed){
