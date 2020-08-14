@@ -1,18 +1,25 @@
 function wakeDog(dogName, dogBreed){
-  console.log(`Wake ${dogName} the ${dogBreed}`);
+  let a = console.log(`Wake ${dogName} the ${dogBreed}`);
+  return a;
 }
 function leashDog(){
-  console.log(`Leash ${dogName} the ${dogBreed}`);
+  let b = console.log(`Leash ${dogName} the ${dogBreed}`);
+  return b;
 }
 function walkDog(){
-  console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
+  let c = console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
+  return c;
 }
 function throwDog(){
-  console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
+  let d = console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
+  return d;
 }
 function walkHomeDog(){
-  console.log(`Walk home with ${dogName} the ${dogBreed}`);
+  let e = console.log(`Walk home with ${dogName} the ${dogBreed}`);
+  return e;
 }
 function unleashDog(){
-  console.log(`Unleash ${dogName} the ${dogBreed}`);
+  let f = console.log(`Unleash ${dogName} the ${dogBreed}`);
+  return f;
 }
+let routine = [walkDog(), leashDog(), walkDog(), throwDog(), walkHomeDog(), unleashDog()];
