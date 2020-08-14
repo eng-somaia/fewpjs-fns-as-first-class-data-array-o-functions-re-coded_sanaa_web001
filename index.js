@@ -6,7 +6,7 @@ function leashDog(dogName, dogBreed){
   let b = console.log(`Leash ${dogName} the ${dogBreed}`);
   return b;
 }
-function walkToPark(){
+function walkToPark(dogName, dogBreed){
   let c = console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
   return c;
 }
