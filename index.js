@@ -10,8 +10,8 @@ function walkDog(){
 function throwDog(){
   console.log("Throw the frisbee for Byron the poodle");
 }
-function wakeDog(){
-  console.log("Wake Byron the poodle");
+function walkHomeDog(){
+  console.log("Walk home with Byron the poodle");
 }
 function wakeDog(){
   console.log("Wake Byron the poodle");
