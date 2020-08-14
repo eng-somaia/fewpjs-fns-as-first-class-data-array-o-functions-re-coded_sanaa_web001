@@ -10,7 +10,7 @@ function walkToPark(dogName, dogBreed){
   let c = console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
   return c;
 }
-function throwFrisbee(){
+function throwFrisbee(dogName, dogBreed){
   let d = console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   return d;
 }
