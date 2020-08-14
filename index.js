@@ -34,8 +34,9 @@ console.log(unleashDog);
  
 function exerciseDog(dogName, dogBreed){
  for(let i=0; i<routine.length; i++){
-  let z = routine[i](dogName, dogBreed);
-   let res =
+  let z = routine[i](dogName, dogBreed); 
+   let res = [];
+   res.push(z);
  }
-  
+  return res;
 }
