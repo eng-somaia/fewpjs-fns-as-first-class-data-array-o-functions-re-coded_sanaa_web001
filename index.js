@@ -22,12 +22,7 @@ function unleashDog(dogName, dogBreed){
   let f = `Unleash ${dogName} the ${dogBreed}`;
   return f;
 }
-console.log(wakeDog);
-console.log(leashDog);
-console.log(walkToPark);
-console.log(throwFrisbee);
-console.log(walkHome);
-console.log(unleashDog);
+
 
 
  var routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
