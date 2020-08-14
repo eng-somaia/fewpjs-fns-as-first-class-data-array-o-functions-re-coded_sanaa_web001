@@ -22,7 +22,7 @@ function unleashDog(dogName, dogBreed){
   let f = console.log(`Unleash ${dogName} the ${dogBreed}`);
   return f;
 }
-let routine = [walkDog(x,y), leashDog(x,y), walkToPark(x,y), throwFrisbee(x,y), walkHome(x,y), unleashDog(x,y)];
+let routine = [walkDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
 function exerciseDog(dogName, dogBreed){
   for(let i=0; i<routine.length; i++){
     routine[i];
