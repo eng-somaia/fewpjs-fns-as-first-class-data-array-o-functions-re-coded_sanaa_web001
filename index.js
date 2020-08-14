@@ -14,7 +14,7 @@ function throwFrisbee(){
   let d = console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   return d;
 }
-function walkHomeDog(){
+function walkHome(){
   let e = console.log(`Walk home with ${dogName} the ${dogBreed}`);
   return e;
 }
@@ -22,7 +22,7 @@ function unleashDog(){
   let f = console.log(`Unleash ${dogName} the ${dogBreed}`);
   return f;
 }
-let routine = [walkDog(x,y), leashDog(x,y), walkDog(x,y), throwDog(x,y), walkHomeDog(x,y), unleashDog(x,y)];
+let routine = [walkDog(x,y), leashDog(x,y), walkToPark(x,y), throwFrisbee(x,y), walkHome(x,y), unleashDog(x,y)];
 function exerciseDog(dogName, dogBreed){
   for(let i=0; i<routine.length; i++){
     routine[i];
