@@ -4,7 +4,7 @@ function wakeDog(){
 function leashDog(){
   console.log("Leash Byron the poodle");
 }
-function wakeDog(){
+function walkDog(){
   console.log("Walk to the park with Byron the poodle");
 }
 function wakeDog(){
