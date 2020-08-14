@@ -1,8 +1,8 @@
-function wakeDog(){
-  console.log("Wake Byron the poodle");
+function wakeDog(dogName, dogBreed){
+  console.log(`Wake ${dogName} the ${dogBreed}`);
 }
 function leashDog(){
-  console.log("Leash Byron the poodle");
+  console.log(`Leash Byron the poodle`);
 }
 function walkDog(){
   console.log("Walk to the park with Byron the poodle");
