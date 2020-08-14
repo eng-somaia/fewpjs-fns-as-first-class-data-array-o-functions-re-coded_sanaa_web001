@@ -1,21 +1,21 @@
 function wakeDog(dogName, dogBreed){
-  let a = console.log(`Wake ${dogName} the ${dogBreed}`);
+  let a = `Wake ${dogName} the ${dogBreed}`;
   return a;
 }
 function leashDog(dogName, dogBreed){
-  let b = console.log(`Leash ${dogName} the ${dogBreed}`);
+  let b = `Leash ${dogName} the ${dogBreed}`;
   return b;
 }
 function walkToPark(dogName, dogBreed){
-  let c = console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
+  let c = `Walk to the park with ${dogName} the ${dogBreed}`;
   return c;
 }
 function throwFrisbee(dogName, dogBreed){
-  let d = console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
+  let d = `Throw the frisbee for ${dogName} the ${dogBreed}`;
   return d;
 }
 function walkHome(dogName, dogBreed){
-  let e = console.log(`Walk home with ${dogName} the ${dogBreed}`);
+  let e = `Walk home with ${dogName} the ${dogBreed}`;
   return e;
 }
 function unleashDog(dogName, dogBreed){
