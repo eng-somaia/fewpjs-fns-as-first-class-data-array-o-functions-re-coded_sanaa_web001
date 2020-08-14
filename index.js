@@ -34,11 +34,9 @@ let routine = [walkDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog
 function exerciseDog(dogName, dogBreed){
  
   for(let i=0; i<routine.length; i++){
-    routine[i];
-    
-    x=dogName;
-    y=dogName;
-   let z = console.log(routine[i]);
+    routine[i](dogName, dogBreed);
+  
+   let z = console.log(routine[i](dogName, dogBreed));
    let res=[];
    res.push(z);
   }
