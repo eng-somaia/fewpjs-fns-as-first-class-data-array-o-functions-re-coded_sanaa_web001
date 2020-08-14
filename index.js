@@ -28,10 +28,9 @@ function unleashDog(dogName, dogBreed){
  var routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
  
 function exerciseDog(dogName, dogBreed){
- for(let i=0; i<routine.length; i++){
-  let z = routine[i](dogName, dogBreed); 
-   var res = [];
-   res.push(z);
- }
+ let res = [];
+routine.forEach(function(ele){
+let z = ele(dogName, dogBreed);
+   res.push(z);});
   return res;
 }
